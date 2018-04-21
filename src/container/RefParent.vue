@@ -6,8 +6,11 @@
 
 <script>
 export default {
-  name: 'RefParent'
-}
+  name: "RefParent",
+  data: function() {
+      return {msg:"test"}
+  }
+};
 </script>
 
 <style>
